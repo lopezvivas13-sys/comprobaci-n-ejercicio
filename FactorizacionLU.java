@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
-public class Main {
+// ============================================
+// FACTORIZACIÓN LU DE UNA MATRIZ 3x3
+// MÉTODO DE DOOLITTLE
+// Acepta enteros, decimales y fracciones
+// ============================================
+
+public class FactorizacionLU {
  static Scanner teclado = new Scanner(System.in);
     static final double CERO = 1e-9; // por debajo de este valor se considera cero
 
